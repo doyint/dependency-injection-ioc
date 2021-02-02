@@ -1,13 +1,20 @@
 {
   "compilerOptions": {
     "outDir": "./dist/",
-    "sourceMap": true,
+    "sourceMap": false,
     "noImplicitAny": true,
-    "module": "es6",
+    "module": "commonjs",
     "target": "es5",
     "jsx": "react",
     "allowJs": true,
-    "strict": false
+    "strict": true,
+    "lib": ["es2015", "dom"],
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictPropertyInitialization": false
   },
-  "include": ["src/**/*.ts"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.test.ts"]
 }
