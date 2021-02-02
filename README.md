@@ -4,8 +4,8 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Contributing](../CONTRIBUTING.md)
+- [Test](#test)
+- [Todos](#todos)
 
 ## About <a name = "about"></a>
 
@@ -25,10 +25,10 @@ npm run dev
 
 This should have a console.log illustrating store content, which is derived from other stores, but injected into the store.js
 
-### Test
+### Test <a name = "test"></a>
 
 npm run test should outout the code coverage
 
-## Todos
+## Todos <a name = "todos"></a>
 
 Fix test case for store.js
