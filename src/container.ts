@@ -1,8 +1,9 @@
 import IContainer from "./icontainer";
 
-// class Container implements IContainer {
-class Container {
+class Container implements IContainer {
+  // class Container {
   private _providers: Map<string, object>;
+
   constructor() {
     this._providers = new Map<string, object>();
   }
@@ -16,7 +17,6 @@ class Container {
       throw new Error(`Attempt to duplicate existing instance of ${name} `);
     }
     this._providers.set(name, instance);
-    // console.log("====> ", this._providers);
   }
 
   /**

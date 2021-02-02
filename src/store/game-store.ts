@@ -1,4 +1,4 @@
-import IocInjectable from "./decorators/ioc-injectable";
+import IocInjectable from "../decorators/ioc-injectable";
 import IStore from "./istore";
 
 @IocInjectable("game-store")

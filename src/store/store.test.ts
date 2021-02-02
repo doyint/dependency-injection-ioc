@@ -21,10 +21,6 @@ describe("Test Main Store", () => {
     Container.reset();
     Container.register("book-store", bookStoreMock);
     Container.register("game-store", gameStoreMock);
-    // console.log("Test call ", Container.providers);
-
-    // mainStore = new Store();
-    // console.log("Main store ---> ", mainStore);
   });
 
   it("should have content from book store and game store", () => {

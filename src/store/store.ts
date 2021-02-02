@@ -16,8 +16,6 @@ class Store {
     this._books = this._gameStore.store;
     this._games = this._bookStore.store;
     this._store = { games: this._games, books: this._books };
-    // console.log("Main store ---> ", this._store, this._gameStore);
-    // console.log("Main store ---> ", this.gameStore);
   }
 
   public get content(): object {
